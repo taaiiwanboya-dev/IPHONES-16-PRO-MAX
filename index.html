@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>iPhone 16 Pro Max Web Simulator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="phone">
+  <div class="wallpaper"></div>
+  <div class="dynamic-island" id="dynamicIsland"></div>
+
+  <div class="boot" id="boot"></div>
+
+  <div class="lockscreen" id="lockscreen">
+    <div class="time" id="time"></div>
+    <div class="hint">Geser ke atas • PIN 0000</div>
+  </div>
+
+  <div class="pin" id="pinScreen">
+    <h2>Masukkan PIN</h2>
+    <div id="dots">○ ○ ○ ○</div>
+    <div class="pad" id="pad"></div>
+  </div>
+
+  <div class="home" id="home">
+    <div class="widget">iPhone 16 Pro Max Simulator</div>
+    <div class="icons" id="icons"></div>
+  </div>
+
+  <div class="app" id="app">
+    <div class="appbar">
+      <span id="appTitle"></span>
+      <button onclick="closeApp()">Tutup</button>
+    </div>
+    <div id="appContent"></div>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
